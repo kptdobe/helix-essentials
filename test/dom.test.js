@@ -78,7 +78,7 @@ describe('dom#wrapSections', () => {
     delete global.window
   });
 
-  it.only('dom#wrapSections wraps sections', () => {
+  it('dom#wrapSections wraps sections', () => {
     global.document.body.innerHTML = `
     <main>
       <div></div>
