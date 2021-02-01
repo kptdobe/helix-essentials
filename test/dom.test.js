@@ -21,7 +21,7 @@ import {
   toClassName,
   createTag,
   wrapSections
-} from '../src/dom.js';
+} from '../scripts/dom.js';
 
 describe('dom#toClassName', () => {
   it('dom#toClassName keeps valid characters', () => {
