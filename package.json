@@ -1,0 +1,33 @@
+{
+  "name": "helix-essentials",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kptdobe/helix-essentials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kptdobe/helix-essentials/issues"
+  },
+  "homepage": "https://github.com/kptdobe/helix-essentials#readme",
+  "dependencies": {
+    "chai": "4.2.0",
+    "eslint": "7.19.0",
+    "eslint-plugin-header": "3.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "jsdom": "16.4.0",
+    "mocha": "8.2.1"
+  },
+  "engines": {
+    "node": ">=14.0"
+  }
+}
